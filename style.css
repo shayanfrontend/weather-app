@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #634c56;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.main{
+    width: 600px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    width: 100%;
+    padding: 0 15px;
+    /* background-color: rgba(145, 145, 238, 0.432); */
+}
+input{
+    width: 100%;
+    background-color: unset;
+    border: 0;
+    border-bottom: 3px solid #fff;
+    outline: 0;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight:600;
+    margin-top: 5px;
+}
+h1{
+    font-size: 3rem;
+    padding: 10px 0;
+}
+button{
+    width: 100%;
+    margin-top:15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #ffccad;
+    border: 0;
+    font-size: 30px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+}
+button:hover{
+    background-color: hotpink;
+}
+button:active{
+    background-color: aqua;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lii{
+    list-style: none;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    margin: 8px 7px;
+    border-radius: 5px;
+    border: 3px solid #fe8f4f;
+    transition: all .3s ease-in-out;
+    animation-name: shayan;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: scale(0);
+  
+}
+.sp{
+    padding: 5px;
+    font-size: 14px;
+    display: block;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.ma{
+text-align: center;
+color: #634c56;
+font-weight: 900;
+}
+.sys{
+    background-color: #fe8f4f;
+    margin-left: 5px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes shayan{
+    100%{
+        transform: scale(1);
+    }
+}
